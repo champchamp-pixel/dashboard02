@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffaf0">
+  <title>เมนูระบบคลังยา</title>
+  <link rel="stylesheet" href="./drug_dashboard.css">
+</head>
+<body>
+  <main class="menu-page">
+    <header class="menu-topbar">
+      <a class="brand" href="./index.html" aria-label="หน้าเมนูระบบคลังยา">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span><strong>med clay</strong><small>PHARMACY OPS</small></span>
+      </a>
+      <a class="menu-link" href="./drug_dashboard.html#overview" id="drug_dashboard">drug_dashboard ↗</a>
+    </header>
+    <section class="menu-hero">
+      <div>
+        <p class="eyebrow">PHARMACY OPERATIONS</p>
+        <h1>จัดการคลังยา<br>ให้เห็นภาพชัด</h1>
+        <p>ติดตามสต็อกและล็อตยา วางแผนรายการที่ควรสั่งซื้อ ตรวจวันหมดอายุ และดูประวัติการจ่ายยาตามช่วงเวลา</p>
+        <a class="menu-link-inline" href="./drug_dashboard.html#overview">เปิด drug_dashboard <span aria-hidden="true">→</span></a>
+      </div>
+      <article class="menu-card">
+        <div class="menu-card-top"><span>STOCK · EXPIRY · ORDERS</span><span>01 / 04</span></div>
+        <div>
+          <h2>ภาพรวมคลังยา</h2>
+          <p>สรุปข้อมูลจากไฟล์ JSON ที่แยกจากหน้าเว็บ</p>
+        </div>
+        <div class="menu-card-symbol" aria-hidden="true">＋</div>
+      </article>
+    </section>
+    <section class="menu-feature-row" aria-label="ความสามารถของ dashboard">
+      <article class="menu-feature"><strong>จัดการสต็อกตามล็อต</strong><span>ดูยอดคงเหลือ สถานะ และวันหมดอายุรายล็อต</span></article>
+      <article class="menu-feature"><strong>วางแผนเติมสินค้า</strong><span>เทียบยอดคงเหลือกับ reorder level และส่งออก CSV</span></article>
+      <article class="menu-feature"><strong>ตรวจรายการจ่ายยา</strong><span>เลือกช่วงเวลา ค้นหา และแยกรายการ void</span></article>
+    </section>
+  </main>
+</body>
+</html>
